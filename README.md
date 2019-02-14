@@ -21,7 +21,7 @@ This auxiliary function goes through the list of cumulative_distribution and ret
     @rtype cdf[k]: int
 
 ## transformation_table
-This function transforms the values of the elements of the cumulative_distribution (cdf) list by a given formula. To do this, it goes through the cdf list and round to the nearest whole number the proportion of the difference of the current value of the cdf list and its minimum between the difference of the maximum and the minimum of the cdf list.
+This function transforms the values of the elements of the cumulative_distribution (cdf) list by a given formula. To do this, it goes through the cdf list and rounds to the nearest whole number the proportion of the difference of the current value of the cdf list and its minimum between the difference of the maximum and the minimum of the cdf list.
 
     @type cdf: [list]
     @rtype l: [list]
